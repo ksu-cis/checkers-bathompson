@@ -35,3 +35,16 @@ body {
         display: none;
     }
 }
+
+circle:hover {
+    stroke: gold;
+    stroke-dasharray: 10 10;
+}
+circle.selected{
+    stroke:green;
+}
+
+rect:hover
+{
+    stroke:gold;
+}
